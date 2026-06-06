@@ -9,6 +9,8 @@ TimerController timerController(displayController);
 }
 
 void setup() {
+  Serial.begin(115200);
+
   displayController.begin();
   timerController.begin();
 }
